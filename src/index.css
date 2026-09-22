@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-pink: #E6007E;
+  --deep-pink: #9C1053;
+  --light-pink: #FFF0F5;
+  --background: #ffffff;
+  --text-primary: #1A1A1A;
+  --text-secondary: #555555;
+  --border: #F3D0E2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans, 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif);
+  color: var(--text-primary);
+  background-color: var(--background);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display, 'Outfit', system-ui, -apple-system, sans-serif);
+  letter-spacing: -0.015em;
+}
+
+.btn-primary {
+  background-color: var(--primary-pink);
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary:hover {
+  background-color: var(--deep-pink);
+  box-shadow: 0 4px 14px rgba(230, 0, 126, 0.3);
+}
+
+.btn-secondary {
+  border: 1.5px solid var(--primary-pink);
+  color: var(--primary-pink);
+  background-color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.btn-secondary:hover {
+  background-color: var(--light-pink);
+  color: var(--deep-pink);
+  border-color: var(--deep-pink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
