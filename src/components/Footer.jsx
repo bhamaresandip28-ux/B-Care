@@ -97,9 +97,26 @@ export default function Footer({ onNavigate }) {
                 </a>
               </li>
               <li>
-                <span className="text-xs text-neutral-500 block pt-1">
-                  Amazon & Meesho links updated upon official listing.
-                </span>
+                <a 
+                  href={siteConfig.amazonUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-[#FF9900] transition-colors flex items-center gap-1.5"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 text-[#FF9900]" />
+                  Buy on Amazon
+                </a>
+              </li>
+              <li>
+                <a 
+                  href={siteConfig.meeshoUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-[#8E24AA] transition-colors flex items-center gap-1.5"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 text-[#8E24AA]" />
+                  Buy on Meesho
+                </a>
               </li>
             </ul>
           </div>

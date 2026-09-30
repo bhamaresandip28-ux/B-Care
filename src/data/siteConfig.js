@@ -3,7 +3,7 @@
  * 
  * NO-HALLUCINATION RULE (Section 7 & 44):
  * Never invent phone numbers, addresses, emails, prices, patent numbers, or links.
- * Verified real information provided by Poonam Sandip Bhamre will populate these fields.
+ * Verified real information provided by Poonam Sandip Bhamre populates these fields.
  */
 
 export const siteConfig = {
@@ -19,9 +19,9 @@ export const siteConfig = {
   ownerEmail: null, // [OWNER EMAIL]
   businessAddress: null, // [BUSINESS ADDRESS]
 
-  // Online Marketplaces (Global fallbacks)
-  amazonUrl: null, // [AMAZON LINK]
-  meeshoUrl: null, // [MEESHO LINK]
+  // Online Marketplaces (Live listings provided by business owner)
+  amazonUrl: "https://www.amazon.in/gp/product/B0GW3WD6T5/ref=cx_skuctr_share?smid=A27NREX63SN9IU",
+  meeshoUrl: "https://www.meesho.com/s/p/e4qfzf?utm_source=s_w",
 
   // Demonstration & Innovation
   demoVideoUrl: null, // [ABSORPTION DEMO VIDEO]

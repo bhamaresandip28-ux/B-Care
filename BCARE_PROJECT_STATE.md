@@ -75,14 +75,19 @@ All Phases (1 to 9) Completed & Live on Dev Server
 - Prohibited: Unverified medical/clinical claims, fake absorbency metrics, competitor shaming.
 
 ## Prices
-- XL 6 Pieces: [TO BE PROVIDED]
-- XL Jumbo 40 Pieces: [TO BE PROVIDED]
-- XXL 6 Pieces: [TO BE PROVIDED]
-- XXL Jumbo 40 Pieces: [TO BE PROVIDED]
+- XL 6 Pieces: [TO BE PROVIDED upon official listing]
+- XL Jumbo 40 Pieces: ₹310.00
+- XXL 6 Pieces: [TO BE PROVIDED upon official listing]
+- XXL Jumbo 40 Pieces: ₹350.00
 
 ## Marketplace Links
-- Amazon: [TO BE PROVIDED]
-- Meesho: [TO BE PROVIDED]
+- **XL Jumbo (40 Pieces)**:
+  - Amazon: https://www.amazon.in/gp/product/B0GW3WD6T5/ref=cx_skuctr_share?smid=A27NREX63SN9IU
+  - Meesho: https://www.meesho.com/s/p/e4qfzf?utm_source=s_w
+- **XXL Jumbo (40 Pieces)**:
+  - Amazon: https://www.amazon.in/gp/product/B0GW43SRF5/ref=cx_skuctr_share_ls_srb?smid=A27NREX63SN9IU&tag=ShopReferral_59a5e461-5ce9-4b42-bd47-8c477eb2319d
+  - Meesho: https://www.meesho.com/s/p/e9bx6r?utm_source=s_w
+- **6-Piece Packs (XL & XXL)**: [TO BE PROVIDED upon official listing]
 
 ## Owner Information
 - Name: Poonam Sandip Bhamre
