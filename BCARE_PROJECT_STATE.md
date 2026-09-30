@@ -92,10 +92,10 @@ All Phases (1 to 9) Completed & Live on Dev Server
 ## Owner Information
 - Name: Poonam Sandip Bhamre
 - Role: Owner, B-Care
-- Phone: [TO BE PROVIDED]
-- WhatsApp: [TO BE PROVIDED]
-- Email: [TO BE PROVIDED]
-- Address: [TO BE PROVIDED]
+- Phone: +91 91751 29057
+- WhatsApp: +91 91751 29057 (wa.me/919175129057)
+- Email: bcare.amalner@gmail.com
+- Location: Amalner, Maharashtra, India
 
 ## Dealer Information
 - Centralized `dealers.js` architecture ready for multi-city listings.

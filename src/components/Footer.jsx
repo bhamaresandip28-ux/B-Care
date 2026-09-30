@@ -123,22 +123,36 @@ export default function Footer({ onNavigate }) {
 
           {/* Col 4: Contact & Support */}
           <div className="space-y-3">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-white">Direct Inquiries</h4>
-            <div className="space-y-2.5 text-xs text-neutral-400">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-white">Direct Contact</h4>
+            <div className="space-y-2 text-xs text-neutral-400">
               <p>
                 <span className="text-neutral-500 block">Owner:</span>
                 <span className="text-neutral-200 font-medium">{siteConfig.ownerName}</span>
               </p>
               <p>
-                <span className="text-neutral-500 block">Inquiries:</span>
-                <a href="/contact" onClick={(e) => handleLink('/contact', e)} className="text-[#FF4081] hover:underline">
-                  Submit Enquiry Form
+                <span className="text-neutral-500 block">Phone / WhatsApp:</span>
+                <a 
+                  href={`https://wa.me/${siteConfig.ownerWhatsApp}?text=${encodeURIComponent(siteConfig.whatsAppMessages.general)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-200 hover:text-[#FF4081] transition-colors"
+                >
+                  {siteConfig.ownerPhone}
                 </a>
               </p>
               <p>
-                <span className="text-neutral-500 block">Dealership:</span>
-                <a href="/wholesale-dealership" onClick={(e) => handleLink('/wholesale-dealership', e)} className="text-[#FF4081] hover:underline">
-                  Dealer Application
+                <span className="text-neutral-500 block">Official Email:</span>
+                <a 
+                  href={`mailto:${siteConfig.ownerEmail}`} 
+                  className="text-neutral-200 hover:text-[#FF4081] transition-colors break-all"
+                >
+                  {siteConfig.ownerEmail}
+                </a>
+              </p>
+              <p>
+                <span className="text-neutral-500 block">Inquiries:</span>
+                <a href="/contact" onClick={(e) => handleLink('/contact', e)} className="text-[#FF4081] hover:underline">
+                  Submit Enquiry Form
                 </a>
               </p>
             </div>

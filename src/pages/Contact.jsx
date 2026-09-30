@@ -108,7 +108,9 @@ export default function Contact({ onNavigate }) {
                 </div>
                 <div>
                   <span className="font-bold text-neutral-800 block">Phone:</span>
-                  <span className="text-neutral-500 font-mono">[OWNER PHONE TO BE PROVIDED]</span>
+                  <a href={`tel:${siteConfig.ownerPhone.replace(/\s+/g, '')}`} className="font-semibold text-neutral-800 hover:text-[#E6007E] transition-colors">
+                    {siteConfig.ownerPhone}
+                  </a>
                 </div>
               </div>
 
@@ -118,7 +120,14 @@ export default function Contact({ onNavigate }) {
                 </div>
                 <div>
                   <span className="font-bold text-neutral-800 block">WhatsApp Support:</span>
-                  <span className="text-neutral-500 font-mono">[OWNER WHATSAPP TO BE PROVIDED]</span>
+                  <a 
+                    href={`https://wa.me/${siteConfig.ownerWhatsApp}?text=${encodeURIComponent(siteConfig.whatsAppMessages.general)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-neutral-800 hover:text-[#E6007E] transition-colors"
+                  >
+                    {siteConfig.ownerPhone}
+                  </a>
                 </div>
               </div>
 
@@ -128,7 +137,9 @@ export default function Contact({ onNavigate }) {
                 </div>
                 <div>
                   <span className="font-bold text-neutral-800 block">Official Email:</span>
-                  <span className="text-neutral-500 font-mono">[OWNER EMAIL TO BE PROVIDED]</span>
+                  <a href={`mailto:${siteConfig.ownerEmail}`} className="font-semibold text-neutral-800 hover:text-[#E6007E] transition-colors break-all">
+                    {siteConfig.ownerEmail}
+                  </a>
                 </div>
               </div>
 
@@ -137,8 +148,8 @@ export default function Contact({ onNavigate }) {
                   <MapPin className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="font-bold text-neutral-800 block">Headquarters Address:</span>
-                  <span className="text-neutral-500 font-mono">[BUSINESS ADDRESS TO BE PROVIDED]</span>
+                  <span className="font-bold text-neutral-800 block">Headquarters:</span>
+                  <span className="text-neutral-700 font-medium">Amalner, Maharashtra, India</span>
                 </div>
               </div>
 

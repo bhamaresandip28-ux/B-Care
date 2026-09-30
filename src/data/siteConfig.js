@@ -14,9 +14,9 @@ export const siteConfig = {
   // Owner & Business Information
   ownerName: "Poonam Sandip Bhamre",
   ownerRole: "Owner, B-Care",
-  ownerPhone: null, // [OWNER PHONE]
-  ownerWhatsApp: null, // [OWNER WHATSAPP]
-  ownerEmail: null, // [OWNER EMAIL]
+  ownerPhone: "+91 91751 29057",
+  ownerWhatsApp: "919175129057",
+  ownerEmail: "bcare.amalner@gmail.com",
   businessAddress: null, // [BUSINESS ADDRESS]
 
   // Online Marketplaces (Live listings provided by business owner)
